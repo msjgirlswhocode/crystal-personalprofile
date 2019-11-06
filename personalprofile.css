@@ -1,0 +1,30 @@
+.nav{
+  width: 100%;
+  float: center;
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+}
+.nav ul li{
+  display:inline-block;
+  height:120px;
+  width: 120px;
+  background: white;
+  float: center;
+  opacity: .8;
+  border-radius: 50%;
+  color: black;
+  font-size: 20px;
+}
+
+body {
+ /*background-image: url("https://media1.thehungryjpeg.com/thumbs/800_3516556_e2c828bc988ef0a75f48b4c39893d87afccb3c34.jpg");*/
+ background-image: url("http://serenitysolutions.co/wp-content/uploads/2019/02/abstract-watercolor-abstract-watercolor-background-hd-abstract-watercolor-lion-tattoo-abstract-watercolor-landscape-paintings.jpg");
+ background-size:cover;
+}
+h1{
+  font-family: "Courier New", Courier, monospace;
+}
+h5{
+  font-family: "Courier New", Courier, monospace;
+}
