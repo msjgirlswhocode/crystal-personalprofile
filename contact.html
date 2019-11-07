@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title> contact☎️ </title>
+</head>
+
+  <body>
+    <input id="emailofperson" type="text" placeholder="email">
+    <br>
+    <button onclick=emailDisplay()> display email </button>
+    <br>
+    <div id="email"> </div>
+    <p>
+      <a href="personalprofile.html"> take me back </a>
+    </p>
+  </body>
+  <script>
+    var space = document.getElementById("email");
+    var nameofperson = document.getElementById("emailofperson");
+
+    function emailDisplay()
+    {
+      space.innerHTML = document.write(emailofperson.value);
+    }
+  </script>
+</html>
